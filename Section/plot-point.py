@@ -2,10 +2,6 @@ from OpenGL.GL import *
 from OpenGL.GLU import *
 from OpenGL.GLUT import * 
 
-from OpenGL.GL import *
-from OpenGL.GLU import *
-from OpenGL.GLUT import *
-
 def plotpoint():
     glClear(GL_COLOR_BUFFER_BIT)   
     glPointSize(20)                
