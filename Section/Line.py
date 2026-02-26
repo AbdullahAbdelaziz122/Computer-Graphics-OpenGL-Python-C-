@@ -4,7 +4,10 @@ from OpenGL.GLUT import *
 
 def plotpoints():
     glClear(GL_COLOR_BUFFER_BIT)
-    glLineWidth(6)                     
+    glLineWidth(6)       
+
+    # glBegin(GL_LINE_STRIP)
+    # glBegin(GL_LINE_LOOP)
     glBegin(GL_LINES)
     # First line 
     glColor3f(1.0, 0.0, 0.0)
